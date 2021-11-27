@@ -1,31 +1,31 @@
-local colors = require('solarized.colors').getColors()
+local c = require('solarized.colors').getColors()
 
 local solarized = {}
 
 solarized.normal = {
-	a = {fg = colors.base02, bg = colors.blue, gui = 'bold'},
-	b = {fg = colors.base2, bg = colors.base01},
-	c = {fg = colors.base0, bg = colors.base02},
+	a = {fg = c.base02, bg = c.blue, gui = 'bold'},
+	b = {fg = c.base2, bg = c.base01},
+	c = {fg = c.base0, bg = c.base02},
 }
 
 solarized.insert = {
-	a = {fg = colors.base02, bg = colors.green, gui = 'bold'},
+	a = {fg = c.base02, bg = c.green, gui = 'bold'},
 }
 
 solarized.visual = {
-	a = {fg = colors.base02, bg = colors.violet, gui = 'bold'},
+	a = {fg = c.base02, bg = c.violet, gui = 'bold'},
 }
 
 solarized.replace = {
-	a = {fg = colors.base02, bg = colors.red, gui = 'bold'},
+	a = {fg = c.base02, bg = c.red, gui = 'bold'},
 }
 
 solarized.command = {
-	a = {fg = colors.base02, bg = colors.yellow, gui = 'bold'},
+	a = {fg = c.base02, bg = c.yellow, gui = 'bold'},
 }
 
 solarized.inactive = {
-  a = {fg = colors.base0, bg = colors.base02, gui = 'bold'},
+  a = {fg = c.base0, bg = c.base02, gui = 'bold'},
 }
 
 return solarized
