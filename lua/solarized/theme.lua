@@ -107,7 +107,7 @@ function solarized.getTheme(options)
         StatusLineTerm =    { fg = c.base00, bg = c.base03 },
         StatusLineTermNC =  { fg = c.base01, bg = c.base02 },
         TabLineFill =       { fg = c.base00  },
-        TablineSel =        { fg = c.base3,  bg = c.base2 },
+        TablineSel =        { fg = c.base3,  bg = c.base02 },
         Tabline =           { fg = c.base00  },
         Title =             { fg = c.green,  bg = c.none,   st = 'bold' },
         Visual =            { fg = c.base03, bg = c.base01 },
@@ -245,7 +245,17 @@ function solarized.getTheme(options)
 
         -- Indent Blankline
         IndentBlanklineChar =        { fg = c.base02 },
-        IndentBlanklineContextChar = { fg = c.base02 },
+        IndentBlanklineContextChar = { fg = c.base2 },
+
+        -- BufferLine
+        BufferLineIndicatorSelected =           { fg = c.base03 },
+        BufferLineFill =                        { bg = c.base02 },
+
+        -- Sneak
+        Sneak =                                 { fg = c.base03, bg = c.base2 },
+        SneakScope =                            { bg = c.base01 },
+
+        BufferCurrent = { fg = c.cyan, bg = c.base02 },
 
     }
 
